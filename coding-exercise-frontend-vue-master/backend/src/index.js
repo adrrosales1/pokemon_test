@@ -3,6 +3,7 @@ const { ApolloServer } = require('apollo-server-express');
 const express = require('express');
 const fs = require('fs');
 const _ = require('lodash');
+
 const pokemonsData = require('./pokemons');
 
 const PORT = 4000;
